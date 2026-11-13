@@ -1,0 +1,53 @@
+{
+  "id": "thread",
+  "version": 1,
+  "language": "el",
+  "title": "Πριν από τα λόγια",
+  "licence": "CC BY-SA 4.0",
+  "attribution": "Aristophanes · «Πριν από τα λόγια» (Thread). Ερωτήσεις από την παράδοση Στανισλάφσκι–Κνέμπελ και τις ερωτήσεις της Ούτα Χάγκεν.",
+  "termRegister": "knebel",
+  "fundedBy": null,
+  "prompts": [
+    {
+      "id": "scene.before",
+      "text": "Τι έγινε λίγο πριν;",
+      "hint": "Από πού έρχεσαι, τι μόλις άκουσες ή έμαθες.",
+      "tradition": "stanislavski",
+      "terms": { "knebel": "προτεινόμενες συνθήκες", "older": "δοσμένες συνθήκες" },
+      "shareable": true
+    },
+    {
+      "id": "scene.where",
+      "text": "Πού είμαι, και πότε;",
+      "hint": "Ο τόπος, η ώρα, ποιος άλλος είναι εδώ.",
+      "tradition": "stanislavski",
+      "terms": { "knebel": "προτεινόμενες συνθήκες", "older": "δοσμένες συνθήκες" },
+      "shareable": true
+    },
+    {
+      "id": "scene.want",
+      "text": "Τι θέλω από αυτούς σε αυτή τη σκηνή;",
+      "hint": "Με δικά σου λόγια. Αν θες, ξεκίνα με «Να…».",
+      "tradition": "stanislavski",
+      "terms": { "knebel": "στόχος", "older": "επιμέρους στόχος σκηνής" },
+      "shareable": true
+    },
+    {
+      "id": "scene.obstacle",
+      "text": "Τι μου στέκεται εμπόδιο;",
+      "hint": "Ποιος ή τι δεν με αφήνει να το πάρω.",
+      "tradition": "hagen",
+      "terms": { "knebel": "εμπόδιο", "older": "εμπόδιο" },
+      "shareable": true
+    },
+    {
+      "id": "scene.event",
+      "text": "Ποιο είναι το γεγονός της σκηνής;",
+      "hint": "Τι αλλάζει για όλους, από την αρχή ως το τέλος.",
+      "tradition": "knebel",
+      "terms": { "knebel": "γεγονός", "older": "γεγονός" },
+      "shareable": true,
+      "render": false
+    }
+  ]
+}

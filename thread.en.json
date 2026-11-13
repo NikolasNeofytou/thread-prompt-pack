@@ -1,0 +1,53 @@
+{
+  "id": "thread",
+  "version": 1,
+  "language": "en",
+  "title": "Before the words",
+  "licence": "CC BY-SA 4.0",
+  "attribution": "Aristophanes · \"Before the words\" (Thread). Questions from the Stanislavski–Knebel tradition and Uta Hagen's questions.",
+  "termRegister": "knebel",
+  "fundedBy": null,
+  "prompts": [
+    {
+      "id": "scene.before",
+      "text": "What happened just before?",
+      "hint": "Where you've come from, what you've just heard or learned.",
+      "tradition": "stanislavski",
+      "terms": { "knebel": "given circumstances", "older": "given circumstances" },
+      "shareable": true
+    },
+    {
+      "id": "scene.where",
+      "text": "Where am I, and when?",
+      "hint": "The place, the hour, who else is here.",
+      "tradition": "stanislavski",
+      "terms": { "knebel": "given circumstances", "older": "given circumstances" },
+      "shareable": true
+    },
+    {
+      "id": "scene.want",
+      "text": "What do I want from them in this scene?",
+      "hint": "In your own words. If it helps, start with \"To…\".",
+      "tradition": "stanislavski",
+      "terms": { "knebel": "objective", "older": "objective" },
+      "shareable": true
+    },
+    {
+      "id": "scene.obstacle",
+      "text": "What's in my way?",
+      "hint": "Who or what stops me getting it.",
+      "tradition": "hagen",
+      "terms": { "knebel": "obstacle", "older": "obstacle" },
+      "shareable": true
+    },
+    {
+      "id": "scene.event",
+      "text": "What is the event of the scene?",
+      "hint": "What changes for everyone, from the start to the end.",
+      "tradition": "knebel",
+      "terms": { "knebel": "event", "older": "event" },
+      "shareable": true,
+      "render": false
+    }
+  ]
+}
